@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta  name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>My Website a Personal</title>
   <!-- web fonts -->
@@ -13,9 +13,13 @@
   <!-- //web fonts -->
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
+  <script src="https://kit.fontawesome.com/3d8b2a5880.js" crossorigin="anonymous"></script>
+  <!--Rating star link css file-->
+  <link rel="stylesheet" href="assets/css/rating-star.css">
+
 </head>
 
-<body >
+<body>
 
   <video autoplay loop muted plays-inline class="back-video ">
     <source src="assets/images/1.mp4" type="video/mp4">
@@ -48,13 +52,39 @@
         <div class="item">
 
           <div class="slider-info banner-view text-center">
-            <div class="banner-info container col-md-6 " style="padding-top: 20vh;">
+            <div class="banner-info container col-md-6 " style="padding-top: 20vh;max-width: 90%;">
               <img src="assets/images/c1.jpg" alt="about image" class="img-fluid" style="height: 10em;width:auto;">
               <h3 class="banner-text mt-5">Hello, I’m Rill-Wan
               </h3>
-              <p class="my-4 mb-5" style="text-align: center;">. . . . . . . . . . . . . . . . . . . . . . .</p>
 
-              <div class="w3l-footer-29-main" >
+              <!--text-->
+              <!-- <p class="my-4 mb-5" style="text-align: center;"></p> -->
+
+              <!--Adding Rating Star-->
+              <div class="container d-flex justify-content-center">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="stars">
+                      <div class="my-4 mb-5" style="text-align: center;">
+                        <form action="">
+                          <input class="star star-5" id="star-5" type="radio" name="star" />
+                          <label class="star star-5" for="star-5"></label>
+                          <input class="star star-4" id="star-4" type="radio" name="star" />
+                          <label class="star star-4" for="star-4"></label>
+                          <input class="star star-3" id="star-3" type="radio" name="star" />
+                          <label class="star star-3" for="star-3"></label>
+                          <input class="star star-2" id="star-2" type="radio" name="star" />
+                          <label class="star star-2" for="star-2"></label>
+                          <input class="star star-1" id="star-1" type="radio" name="star" />
+                          <label class="star star-1" for="star-1"></label>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="w3l-footer-29-main">
                 <div class="footer-29 text-center" style="padding: 0px 0 100px;">
                   <div class="container">
                     <div class="main-social-footer-29">
@@ -66,7 +96,8 @@
                       <a href="https://www.instagram.com/rill_wan_____/?igshid=MTg0ZDhmNDA%3D" class="instagram"><span
                           class="fa fa-instagram"></span></a>
                       <a href="https://wa.me/+919567479901" class="whatsapp"><span class="fa fa-whatsapp"></span></a>
-                      <a href="mailto:riswanmelmuri@gmail.com" class="google-plus"><span class="fa fa-google-plus"></span></a>
+                      <a href="mailto:riswanmelmuri@gmail.com" class="google-plus"><span
+                          class="fa fa-google-plus"></span></a>
 
                     </div>
                   </div>
